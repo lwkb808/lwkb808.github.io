@@ -3,12 +3,12 @@ layout: project
 type: project
 image: img/micromouse/micromouse-square.jpg
 title: "About Me"
-date: 2015
+date: 2022
 published: true
 labels:
   - Education
   - Goals
-summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
+summary: "Why did I choose MIS?."
 ---
 
 Aloha everyone! My name is Levi, I'm a super senior who recently decided to double major in MIS to compliment my Marketing degree.
