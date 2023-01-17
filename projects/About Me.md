@@ -4,7 +4,7 @@ type: project
 image: img/micromouse/micromouse-square.jpg
 title: "About Me"
 date: 2022
-published: true
+published: false
 labels:
   - Education
   - Goals
