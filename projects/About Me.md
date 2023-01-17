@@ -11,12 +11,6 @@ labels:
 summary: "My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition."
 ---
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
-
 Aloha everyone! My name is Levi, I'm a super senior who recently decided to double major in MIS to compliment my Marketing degree.
 
 I started my college career at UH firmly believeing that Marketing was the area for me. Recently, I've felt that I want more than just Marketing, and MIS became that more. I found that MIS can fulfill my want to problem solve and get creative. Plus, after doing a little market research I found their are hybrid jobs that utilize both Marketing and MIS skills, such as a Marketing Technologist. 
