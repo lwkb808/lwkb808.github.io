@@ -1,0 +1,81 @@
+{
+  "basics": {
+    "name": "Levi Bringman",
+    "label": "Shidler Undergraduate",
+    "picture": "https://avatars.githubusercontent.com/u/122339837?v=4",
+    "email": "levi3@hawaii.edu",
+    "phone": "808-223-0960",
+    "website": "https://lwkb808.github.io",
+    "summary": "I am studying for a B.B.A. in MIS and Marketing from Shidler College of Business at the University of Hawaii. I expect to graduate in Spring, 2024.",
+    "location": { "address": "", "postalCode": "96826", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "lwkb808", "url": "http://github.com/lwkb808" },
+      { "network": "linkedin", "username": "Levi Bringman", "url": "https://www.linkedin.com/in/levi-bringman-98320913b/" }
+    ]
+  },
+  "interests": [
+    { "name": "Self-Development" },
+    { "name": "Reading" },
+    { "name": "Anime/Manga" },
+    { "name": "Investing" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawaii, Honolulu, HI",
+      "area": "Management Information Systems and Marketing (expected Spring, 2024)",
+      "studyType": "B.B.A.",
+      "startDate": "2020-08-22",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "UH Better Tomorrow Speaker Series",
+      "position": "Media and Events Assistant",
+      "website": "https://manoa.hawaii.edu/speakers/",
+      "startDate": "2022-09-22",
+      "endDate": "Present",
+      "summary": "Digital promotion of upcoming events",
+      "highlights": [
+        "Maintain online presence and strategize to further growth on applicable social media platforms",
+        "Communicate with UH and non-UH entities to promote events via newsletters"
+      ]
+    },
+    {
+      "company": "Pacific Asian Center for Entrepreneurship (PACE)",
+      "position": "Student Assistant",
+      "website": "https://pace.shidler.hawaii.edu/",
+      "startDate": "2022-03-01",
+      "endDate": "2022-09-22",
+      "summary": "Social Media Manager",
+      "highlights": [
+        "Maintain online presence and create content for applicable social media platforms"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Dean's List",
+      "date": "Spring 2022",
+      "awarder": "Shidler College of Business",
+      "summary": "Earn a semester grade point average of 3.5 or higher based on 12 credits or more taken for a grade."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}
