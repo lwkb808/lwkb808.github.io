@@ -10,7 +10,7 @@ labels:
   - Invoice 1
 ---
 
-#How to WOD
+<h1>How to WOD</h1>
 
 I am in week 6 of ITM 352, and WODs are actually kinda fun. I've started to feel the challenge of each WOD paying off. I may not be the best (yet), but I'm on my way to being a reliable coder. The most recent WOD I completed, <a href="https://dport96.github.io/ITM352/morea/060.expressions-operators/experience-invoice1.html">Invoice1,</a> was an exercise to create an invoice or sales receipt with five items without "hard coding" the computations. 
 <br>
