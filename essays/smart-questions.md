@@ -11,8 +11,8 @@ labels:
   - Improvments
 ---
 
-## My programming skills have greatly improved in the following ways:
-
+My programming skills have greatly improved in the following ways:
+<br>
 My understanding of interpreting the code has improved drastically. After completing Assignment 1 I understand that Javascript is almost written in plane english. For example, looking at the method response.redirect() when this code is run the information inputted is literally responding and redirecting you to where ever the information is requested from.
 <br>
 An important idea to understand is "the code is doing exactly what it says its doing," it may not seem that simple, but it really is.
@@ -40,4 +40,5 @@ As mentioned above, going through the parts of the lab meant for class time woul
 What helps me the most in class are (WODs, Labs, class website, screencasts, readings, quizzes, one on one help, working with classmates, etc.):
 What helps me the most is a combination of everything on the list above. I feel that each have their own particular purpose to help us grow along our journey. That being said possibly having a list of key topics for each lab would allow us to make sure we have an understanding of what we are going to be using for the lab or WODs. Possibly putting people in groups in the beginning of the semester might be a good add to the class. This would allow people to have a support group that they can collaborate with and help each other grow.
 <br>
-<img style="align-items: center;" src="https://media.giphy.com/media/IrbYLGuCAdU6k/giphy.gif">
+<br>
+<img style="display:flex; justify-content: center;" src="https://media.giphy.com/media/IrbYLGuCAdU6k/giphy.gif">
