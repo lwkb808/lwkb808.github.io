@@ -1,99 +1,43 @@
 ---
 layout: essay
 type: essay
-title: "Smart Questions, Good Answers"
+title: "E4: Progress in Programming Report"
 # All dates must be YYYY-MM-DD format!
-date: 2015-09-08
-published: false
+date: 2023-04-12
+published: true
 labels:
-  - Questions
-  - Answers
-  - StackOverflow
+  - Journey
+  - Progress
+  - Improvments
 ---
 
-<img width="300px" class="rounded float-start pe-4" src="../img/smart-questions/rtfm.png">
+## My programming skills have greatly improved in the following ways:
 
-## Is there such thing as a stupid question?
-
-I’ve had instructors address a whole class and say, “There’s no such thing as a stupid question.” I now know that is in fact not true because I’ve challenged the statement and received the appropriate dumb-stricken, annoyed look. There are definitely stupid questions, and along with that, usually unhelpful answers. Though we all might be guilty of being callous and making people victim to our poorly formed questions, there are steps we can take to ask smarter questions that hopefully don’t illicit the dreaded “rtfm” or “stfw” response.
-
-## What’s a smart question?
-
-Stack Overflow, a question and answer site for programmers, is a great resource for anyone who may have issues with code or who may simply want to learn new or different methods of doing something. There I found examples of good questions and bad questions, which could probably be improved.
-
-In the following example, we examine the components of a decent question. In this case, the asker is trying to figure out a way to get the date of the previous month in Python.
-
-```
-Q: python date of the previous month
-
-I am trying to get the date of the previous month with python. Here is what i've tried:
-
-str( time.strftime('%Y') ) + str( int(time.strftime('%m'))-1 )
-
-However, this way is bad for 2 reasons: First it returns 20122 for the February of 2012 (instead of 201202) 
-and secondly it will return 0 instead of 12 on January.
-
-I have solved this trouble in bash with:
-
-echo $(date -d"3 month ago" "+%G%m%d")
-
-I think that if bash has a built-in way for this purpose, then python, much more equipped, should provide something 
-better than forcing writing one's own script to achieve this goal. Of course i could do something like:
-
-if int(time.strftime('%m')) == 1:
-    return '12'
-else:
-    if int(time.strftime('%m')) < 10:
-        return '0'+str(time.strftime('%m')-1)
-    else:
-        return str(time.strftime('%m') -1)
-        
-I have not tested this code and i don't want to use it anyway (unless I can't find any other way:/)
-
-Thanks for your help!
-```
-
-While the heading of his question could be better, it does convey what he’s trying to figure out. Usually something as brief as “python date of previous month” is what other users would enter in as search terms on Google, making it easily found. Another good thing about the question is that it’s not just a question. The asker shows what he or she has done and that he or she has put in some effort to answer the question. And while it may not be as important as the question itself, the asker shows courtesy, which does increase the chance of getting an answer.
-
-```
-A: datetime and the datetime.timedelta classes are your friend.
-
-1. find today
-2. use that to find the first day of this month.
-3. use timedelta to backup a single day, to the last day of the previous month.
-4. print the YYYYMM string you're looking for.
-
-Like this:
-
- >>> import datetime
- >>> today = datetime.date.today()
- >>> first = datetime.date(day=1, month=today.month, year=today.year)
- >>> lastMonth = first - datetime.timedelta(days=1)
- >>> print lastMonth.strftime("%Y%m")
- 201202
- >>>
-
-```
- 
-The asker received six possible answers, and he or she was successful in inciting discussion from multiple users. The answers themselves were clear and were devoid of the rumored sarcasm and hostility of “hackers.” Since I myself have referenced this page and found it useful, I can confidently say that it is a good question.
-
-## The foolproof way to get ignored.
-
-While there are decent questions that benefit everyone, there are those one can ask to create an entirely different effect. In the following example, a user asks how he would, in short, create a desktop application with Facebook.
-
-```
-Q: Facebook Desktop Notifier
-
-I am a beginner programmer that have never used anything other than what's included in a language.
-
-I am trying to create a desktop application that notifies me anytime I get an update onfacebook. 
-How should go about doing this? Thanks in advance.
-
-edit Sorry I was not clear. Is there any way to make a DESKTOP application with facebook?
-```
-
-A simple “yes” would have answered the question, but we know that’s not the sort of answer he or she is looking for. Fortunately, someone kindly responded with a link to Facebook’s developer website. The asker should have done more research on his or her potential project. Then further down the road, he or she could have asked more specific and detailed questions that wouldn’t require a thousand-paged response for a sufficient answer.
-
-## Conclusion
-
-When we rely on others’ generosity and expertise to provide answers to our questions, it should hold that the question we ask should be one that leads to efficient and effective help that not only benefits us, but also the people we ask and others who might ask the same question in the future. Thus, if you have a question… make it a smart one! Asking questions may not always get you the best answer, but asking them in a way that will make others want to answer them will increase the success of finding a good solution and make it a positive experience on all sides.
+My understanding of interpreting the code has improved drastically. After completing Assignment 1 I understand that Javascript is almost written in plane english. For example, looking at the method response.redirect() when this code is run the information inputted is literally responding and redirecting you to where ever the information is requested from.
+<br>
+An important idea to understand is "the code is doing exactly what it says its doing," it may not seem that simple, but it really is.
+Aside from that I realize there are also gaps in my knowledge with connecting code together.
+<br>
+## I need to work on the following to improve my programming skills:
+<br>
+For a while I never understood how getElementById was really used even though it seems like a simple code. Understanding how to use it has never been my strong suite. Another aspect I can improve on is taking extra time to read the documentation thouroughly. I tend to read through the documents as quickly as possible to just get the job done which bites me in the butt. The next skill is explicitly searching for the information I need to write code rather than saying "how do I make an invoice Javascript". I would improve that by saying something like "What features do an invoice have?" then from that search I can narrow down a couple separate topics to research to make my code search easier and more efficent.
+<br>
+## I learned a lot from doing WODs and I can do them without copying the screencast:
+<br>
+I learned a lot from the WODs and I can do most of them without copying the screensast. I agree that the WODs are super helpful and with most things you get what you put in. But Store1 not having a screencast sent me back a lot. I understand we need to reach out for help with with any code, but its not always an option when I'm limited on time. In a perfect world I would love to really dig deep too figure out what is wrong with my code to see what little detail I'm missing. But school has continous deadlines that don't stop, and with gaps in understanding from not completing majority of a lab associated with a WOD I'm left frustrated. Sometimes that screencast bridges that gap. Maybe a button can be added to the website to give extra hints to help with the WOD. The hint could tell you what to look up or a sentence to assist with thinking about an assigned task through in a new way to break it down. ITM 352 is a very fast paced class and these extra hints would allow people to solve the problems themselves, finding more confidence in their own skills rather than feel beat down because they are missing one tiny detail.
+<br>
+## The labs helped me learn and I am able to complete them with confidence:
+<br>
+The labs are very helpful because they help us apply the new concepts we learn and prepare us for future tasks. I am not confident I can complete them by myself the father we went on in the semester. The concepts required more than just RTFM'ing because the words I read were still a new language to me. The biggest set back is when we aren't able to finish a lab and I'm left with an understanding gap for an assignment. Specifically, Assignment 1 relied heavily on concepts in the lab that we didn't cover. The "Do it yourself"section  is understandable why we don't go over it in class, but not doing half the lab makes Assingment 1 a huge struggle. In those cases when we don't finish the lab having a screencast that goes through the material would be extremely helpful!
+<br>
+## I learned a lot from my experience doing Assignment 1 and feel ready to work on Assignment 2:
+<br>
+Assignment 1 pushed me put my understanding of the concepts learned to the test and I realize I need to put a little more effort. I haven't looked at Assignment 2 yet but I believe the skills to process data on a server is something I can handle, with a little struggle of course.
+<br>
+## I think the class can be improved to help my learning in the following ways:
+<br>
+As mentioned above, going through the parts of the lab meant for class time would be aswesome. And if thats not possible having a screencast as a backup would help out so much because then we can go back and take our time to understand the lab while going at our own pace. Another suggestion is hints in the WODs if we are having issues with a particular task or even a button to send a link to a WOD screencast when we really can't figure it out.
+What helps me the most in class are (WODs, Labs, class website, screencasts, readings, quizzes, one on one help, working with classmates, etc.):
+What helps me the most is a combination of everything on the list above. I feel that each have their own particular purpose to help us grow along our journey. That being said possibly having a list of key topics for each lab would allow us to make sure we have an understanding of what we are going to be using for the lab or WODs. Possibly putting people in groups in the beginning of the semester might be a good add to the class. This would allow people to have a support group that they can collaborate with and help each other grow.
+<br>
+<img style="align-items: center;" src="https://media.giphy.com/media/IrbYLGuCAdU6k/giphy.gif">
