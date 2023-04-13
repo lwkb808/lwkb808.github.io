@@ -11,7 +11,7 @@ labels:
   - Improvments
 ---
 
-My programming skills have greatly improved in the following ways:
+<h2>My programming skills have greatly improved in the following ways:<h2>
 <br>
 My understanding of interpreting the code has improved drastically. After completing Assignment 1 I understand that Javascript is almost written in plane english. For example, looking at the method response.redirect() when this code is run the information inputted is literally responding and redirecting you to where ever the information is requested from.
 <br>
