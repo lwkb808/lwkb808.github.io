@@ -41,6 +41,6 @@ What helps me the most in class are (WODs, Labs, class website, screencasts, rea
 What helps me the most is a combination of everything on the list above. I feel that each have their own particular purpose to help us grow along our journey. That being said possibly having a list of key topics for each lab would allow us to make sure we have an understanding of what we are going to be using for the lab or WODs. Possibly putting people in groups in the beginning of the semester might be a good add to the class. This would allow people to have a support group that they can collaborate with and help each other grow.
 <br>
 <br>
-<div>
-  <img style="display:flex; justify-content: center;" src="https://media.giphy.com/media/IrbYLGuCAdU6k/giphy.gif">
+<div style="display:flex; justify-content: center; width:50%">
+  <img src="https://media.giphy.com/media/MtugSTgfMc2be/giphy.gif">
 </div>
