@@ -10,7 +10,7 @@ labels:
   - Improvements
 ---
 
-<p><h2>1. Provide a brief introduction to the assignment along with a link to this page for further details</h2></p>
+<p><h2>1. Provide a brief introduction to the assignment along with a <a href="https://dport96.github.io/ITM352/morea/150.Assignment2/experience-Assignment2_retrospective.html">link<a> to this page for further details</h2></p>
 
 <p>Assigment 2 improved upon the online shop I made in Assingment 1 by adding a login and registration feature. Utilizing the fs package from node in my code users are able to add their login information (email, full name and password) to a .json file. Once their login data is logged into the .json users are able to sign-in and compelete their purchase.</p>
 
